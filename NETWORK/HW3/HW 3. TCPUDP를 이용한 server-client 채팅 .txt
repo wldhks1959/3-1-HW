@@ -1,0 +1,65 @@
+HW 3. TCP/UDP를 이용한 server-client 채팅 프로그램 구현
+
+ 
+
+○ 목적
+
+- multi-thread를 사용하여 TCP 및 UDP를 이용한 server-client 채팅 프로그램 구현
+
+ 
+
+TCP 환경에서 multi-thread를 이용한 server-client 채팅 프로그램 구현
+- send 및 receive 기능을 각 thread로 구현하여 채팅 프로그램 구현
+
+ 
+
+UDP 환경에서 multi-thread를 이용한 server-client 채팅 프로그램 구현
+- send 및 receive 기능을 각 thread로 구현하여 채팅 프로그램 구현
+
+ 
+
+○ 1, 2번 모두 다음의 대화를 입력하고 캡처하여 보고서에 기입
+
+- client: hi.
+
+- server: hi.
+
+- client: how are you?
+
+- server: I am fine, thank you, and you?
+
+- client: I am pretty good.
+
+- server: What can I do for you?
+
+- client: I don’t have enough money to eat lunch. Could you borrow me money?
+
+- server: This host left this chatting room.
+
+※ server와 client 창에 위의 문장이 모두 나와야 함
+
+※ 컴파일이 안될 경우에는 –lpthread를 이용하기 바람
+
+예) gcc client.c –o client –lpthread
+
+ 
+
+○ 기한: ~4/14, 11.59 pm.
+
+ 
+
+■ 제출 목록
+
+- 1, 2에 대한 결과 (캡처본 포함) 보고서 제출 (hwp, word, pdf 가능)
+
+- 소스코드
+
+- 학과, 학번, 이름이 나와 있는 zip 파일로 제출
+
+ 
+
+■ 주의 사항
+
+- 리눅스 환경에서 구현
+
+- C로 작성
