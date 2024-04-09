@@ -1,2 +1,1 @@
-# OS_lecture
-OS lecture HW.
+# Operating System and Computer Network HW
