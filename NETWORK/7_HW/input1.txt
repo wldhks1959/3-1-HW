@@ -1,0 +1,1 @@
+Positioning is the most basic yet important process in a train control system. In practical train systems, the position of a train is determined with a track circuit, a radio frequency (RF) tag called a “balise”, or a tachometer. 
