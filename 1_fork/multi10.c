@@ -9,8 +9,8 @@
 
 void multiProcess(int start, int end) 
 {
-    for (int i = start; i <= end; i++) 
-        printf("%d ", i * 7);
+    for (int i = start; i <= end; i++) {}
+        // printf("%d ", i * 7);
 }
 
 int main() 
@@ -29,7 +29,7 @@ int main()
 
         int num = pid % self; // num : 프로세스 ID 
     
-        // printf("PID : %d\n", num); // PID 체크용 함수
+        printf("PID : %d\n", num); // PID 체크용 함수
 
         int start = num * (ITER / NUM_PROCESS) + 1;
         int end = (num + 1) * (ITER / NUM_PROCESS);
